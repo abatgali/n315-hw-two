@@ -1,0 +1,20 @@
+#home {
+  text-align: center;
+  background-color: rgb(192, 190, 189);
+  background-size: contain;
+  padding-bottom: 5em;
+}
+#home p {
+  text-align: left;
+  line-height: 1.5em;
+  width: 65%;
+  padding-left: 3em;
+}
+
+header {
+  height: 600px;
+  background-image: url(../images/hero.jpeg);
+  background-size: contain;
+}
+
+/*# sourceMappingURL=home.css.map */

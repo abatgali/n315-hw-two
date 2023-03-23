@@ -1,0 +1,16 @@
+{
+  "name": "hw-two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server",
+    "scss-compile": "sass --watch scss/styles.scss css"
+  },
+  "author": "Anant Batgali",
+  "license": "ISC"
+}

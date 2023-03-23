@@ -1,0 +1,67 @@
+#imgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  padding: 5em 2em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card div {
+  height: 200px;
+  width: 200px;
+  background-color: beige;
+  background-position: center bottom;
+  background-size: cover;
+}
+.card p {
+  width: 200px;
+  height: 150px;
+  padding: 0.5em;
+  overflow: hidden;
+}
+
+#one {
+  background-image: url(../images/one.jpeg);
+}
+
+#two {
+  background-image: url(../images/two.jpg);
+}
+
+#three {
+  background-image: url(../images/three.jpg);
+}
+
+#four {
+  background-image: url(../images/four.jpg);
+}
+
+#five {
+  background-image: url(../images/five.jpg);
+}
+
+#six {
+  background-image: url(../images/six.jpg);
+}
+
+#seven {
+  background-image: url(../images/seven.jpg);
+}
+
+#eight {
+  background-image: url(../images/eight.jpg);
+}
+
+#nine {
+  background-image: url(../images/nine.jpg);
+}
+
+#ten {
+  background-image: url(../images/ten.jpg);
+}
+
+/*# sourceMappingURL=browse.css.map */

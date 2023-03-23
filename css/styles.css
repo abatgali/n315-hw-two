@@ -1,0 +1,183 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+#logo {
+  color: white;
+  font-weight: bold;
+}
+
+.navHolder {
+  position: fixed;
+}
+
+#mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  padding: 1em;
+  display: none;
+}
+
+.bars {
+  display: none;
+  height: 0;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.bars .bar {
+  display: block;
+  width: 25px;
+  margin: 5px 0;
+  background-color: white;
+  height: 3px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.links {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  height: 50px;
+  width: 100vw;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: -10px;
+  transition: height 0s, opacity 0.2s ease-in;
+}
+
+.bars.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.bars.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.bars.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(135deg);
+}
+
+.links.active {
+  height: 100vh;
+  opacity: 1;
+}
+
+@media screen and (max-width: 960px) {
+  #mobile-nav {
+    display: flex;
+  }
+  .bars {
+    display: block;
+    height: 25px;
+  }
+  .links {
+    height: 0;
+    opacity: 0;
+    flex-direction: column;
+  }
+}
+#home {
+  text-align: center;
+  background-color: rgb(192, 190, 189);
+  background-size: contain;
+  padding-bottom: 5em;
+}
+#home p {
+  text-align: left;
+  line-height: 1.5em;
+  width: 65%;
+  padding-left: 3em;
+}
+
+header {
+  height: 600px;
+  background-image: url(../images/hero.jpeg);
+  background-size: contain;
+}
+
+#imgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  padding: 5em 2em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card div {
+  height: 200px;
+  width: 200px;
+  background-color: beige;
+  background-position: center bottom;
+  background-size: cover;
+}
+.card p {
+  width: 200px;
+  height: 150px;
+  padding: 0.5em;
+  overflow: hidden;
+}
+
+#one {
+  background-image: url(../images/one.jpeg);
+}
+
+#two {
+  background-image: url(../images/two.jpg);
+}
+
+#three {
+  background-image: url(../images/three.jpg);
+}
+
+#four {
+  background-image: url(../images/four.jpg);
+}
+
+#five {
+  background-image: url(../images/five.jpg);
+}
+
+#six {
+  background-image: url(../images/six.jpg);
+}
+
+#seven {
+  background-image: url(../images/seven.jpg);
+}
+
+#eight {
+  background-image: url(../images/eight.jpg);
+}
+
+#nine {
+  background-image: url(../images/nine.jpg);
+}
+
+#ten {
+  background-image: url(../images/ten.jpg);
+}
+
+/*# sourceMappingURL=styles.css.map */
